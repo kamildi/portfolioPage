@@ -1,0 +1,248 @@
+* {
+	margin: 10;
+	padding: 0;
+	box-sizing:border-box;
+	font-family:'PT Sans', sans-serif;
+}
+
+html {
+	scroll-behavior:smooth;
+}
+
+
+
+.container {
+	padding: 0 50px 0 10px; /*lewa strona odstep tekst */
+}
+
+
+.navbar {
+    height: 100%; 
+    width: 320px; /*nie zmieniac*/
+    position: fixed; 
+    z-index: 1; 
+    top: 10; 
+    left: 10;
+    background-color: #181818;
+    overflow-x: hidden; 
+    padding-top: 20px; 
+    transition: 1.5s; 
+    overflow-y: hidden; 
+  }
+
+body {
+	background-color: #262626;
+}
+
+header h1,
+header h2,
+header a,
+.text p,
+.about h1,
+.skills h1,
+.project h1 {
+	color: #707070;
+}
+
+li {
+	list-style: none;
+	margin-left: 72px;
+}
+
+
+.navbar a {
+	text-decoration: none;
+	font-size: .9rem;
+	text-transform: uppercase;
+	position: relative;
+	top: 60px;
+	bottom: 50%;
+	transform: translateY(-50%);
+  
+   
+}
+
+.button {
+    padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    color: #111111;
+    background-color: #c51f1f;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    top: 70px;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
+
+  .main-info-section{
+    margin-left: 350px;
+  }
+
+  .main-info-section h1{
+    font-size: 90px;
+    color: #d3d3d3;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  .text-primary{
+    font-size: 90px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #910c0c;
+    
+    
+  }
+
+  .lowercase-text
+{
+  margin-top: -45px;
+  color: #adadad;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: bold;
+  font-size:1.3rem
+}
+
+.lowercase-text i{
+  margin-top: -45px;
+  color: #adadad;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: bold;
+  font-size:1.3rem
+}
+
+.lowercase-text a{
+  text-decoration: none;
+	font-size: 1.3rem;
+  color: #acacac;
+}
+
+.jsscript{
+  margin-right: 200px;
+  margin-top: 50px;
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #adadad;
+}
+
+.social-icons .social-icon
+{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  height:3.5rem;
+  width:3.5rem;
+  background-color: #495057;
+  color:#fff;
+  border-radius:100%;
+  font-size:1.5rem;
+  margin-top: 40px;
+  margin-right:1.5rem
+  
+}
+
+.social-icons .social-icon:last-child
+{
+  margin-right:0
+}
+
+.social-icons .social-icon:hover
+{
+  background-color:#648c60
+}
+
+hr
+{
+  margin-top: 50px;
+  box-sizing:content-box;
+  height:0;
+  overflow:visible
+}
+
+.skills {
+  margin-left: 350px;
+  margin-top: 100px;
+  font-family: 'Source Code Pro', monospace;
+  color: #adadad;
+  font-size:1.3rem
+}
+
+.mb-5
+{
+  margin-bottom:3rem;
+  margin-left: 30px;
+  
+}
+
+.skills-info{
+  margin-top: -10px;
+  
+}
+
+.skills h3{
+  font-family: 'Source Code Pro', monospace;
+  margin-top: -40px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.skills ul{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 25px;
+  margin-top: -3px;
+}
+
+.education{
+  margin-left:350px;
+  color: #910c0c;
+  font-weight: bold;
+}
+
+.education h2{
+  color:#adadad;
+  font-family: 'Source Code Pro', monospace;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.education h3{
+  color:#adadad;
+  font-family: 'Source Code Pro', monospace;
+  margin-left: 10px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+.education h4{
+  color:#adadad;
+  font-family: 'Source Code Pro', monospace;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.project h1{
+  margin-left:350px;
+  color: #910c0c;
+  font-weight: bold;
+}
+
+.skills a{
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+
+
+
+
+
+
