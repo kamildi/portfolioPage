@@ -14,3 +14,5 @@ var i = 0;
             setTimeout(typeText, speed);
         }
 }
+
+
