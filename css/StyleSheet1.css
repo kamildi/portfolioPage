@@ -245,22 +245,91 @@ hr
 
 
 .wrap{
- margin: 0 auto;
- display: inline-block;
+ 
  font-family: 'Source Code Pro', monospace;
  color: #fff;
  font-size: 20px;
  font-weight: bold;
+ width:100%;
+ overflow:hidden;
  opacity: 0;
- transition: 1s;
- width: 0%;
+ 
 }
 
 .wrap.span{
   opacity: 1;
-  width: 100%;
+  animation: slide-left 1s;
   
 }
+
+.wrap-java{
+ 
+  font-family: 'Source Code Pro', monospace;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  width:100%;
+  overflow:hidden;
+  opacity: 0;
+  
+ }
+ 
+ .wrap-java.span{
+   opacity: 1;
+   animation: slide-left 2s;
+   
+ }
+
+ .wrap-sql{
+ 
+  font-family: 'Source Code Pro', monospace;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  width:100%;
+  overflow:hidden;
+  opacity: 0;
+  
+ }
+ 
+ .wrap-sql.span{
+   opacity: 1;
+   animation: slide-left 3s;
+   
+ }
+
+ .wrap-graphic{
+ 
+  font-family: 'Source Code Pro', monospace;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  width:100%;
+  overflow:hidden;
+  opacity: 0;
+  
+ }
+ 
+ .wrap-graphic.span{
+   opacity: 1;
+   animation: slide-left 4s;
+   
+ }
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+ 
+
 
 
 
