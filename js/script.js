@@ -15,4 +15,11 @@ var i = 0;
         }
 }
 
+const controller = new ScrollMagic.Controller()
+const scene = new ScrollMagic.Scene({
+	triggerElement: '.skills',
+	triggerHook: 0
+})
+.setClassToggle('.wrap', 'span')
+.addTo(controller);
 
