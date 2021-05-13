@@ -192,7 +192,7 @@ hr
   margin-top: -40px;
   margin-left: 8px;
   font-size: 40px;
-  color: white;
+  color: #adadad;
   font-weight: bold;
 }
 
@@ -245,88 +245,17 @@ hr
 
 
 .wrap{
- 
+ margin-top: 10px;
  font-family: 'Source Code Pro', monospace;
- color: #fff;
+ color: rgb(201, 201, 201);
  font-size: 20px;
  font-weight: bold;
- width:100%;
- overflow:hidden;
- opacity: 0;
- 
 }
 
-.wrap.span{
-  opacity: 1;
-  animation: slide-left 1s;
-  
+.animation{
+  margin:0;
 }
 
-.wrap-java{
- 
-  font-family: 'Source Code Pro', monospace;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  width:100%;
-  overflow:hidden;
-  opacity: 0;
-  
- }
- 
- .wrap-java.span{
-   opacity: 1;
-   animation: slide-left 2s;
-   
- }
-
- .wrap-sql{
- 
-  font-family: 'Source Code Pro', monospace;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  width:100%;
-  overflow:hidden;
-  opacity: 0;
-  
- }
- 
- .wrap-sql.span{
-   opacity: 1;
-   animation: slide-left 3s;
-   
- }
-
- .wrap-graphic{
- 
-  font-family: 'Source Code Pro', monospace;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  width:100%;
-  overflow:hidden;
-  opacity: 0;
-  
- }
- 
- .wrap-graphic.span{
-   opacity: 1;
-   animation: slide-left 4s;
-   
- }
-
-@keyframes slide-left {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
  
 
